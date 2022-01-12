@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const Contact: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,11 +13,11 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Patrick Brennan&apos;s Portfolio
+          Contact Me!
         </h1>
       </main>
     </div>
   )
 }
 
-export default Home
+export default Contact
