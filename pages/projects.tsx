@@ -1,8 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 
-const Home: NextPage = () => {
+const Contact: NextPage = () => {
   return (
     <div className="h-screen bg-teal-900">
       <Head>
@@ -12,13 +13,13 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="">
-        <Navbar />
+      <Navbar />
         <h1 className="">
-          Welcome!
+          Projects!
         </h1>
       </main>
     </div>
   )
 }
 
-export default Home
+export default Contact
