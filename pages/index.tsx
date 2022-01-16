@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 
 const Home: NextPage = () => {
   return (
-    <div className="h-screen bg-teal-900">
+    <div className="h-screen bg-body">
       <Head>
         <title>Patrick Brennan</title>
         <meta name="description" content="Patrick Brennan's Portfolio" />
